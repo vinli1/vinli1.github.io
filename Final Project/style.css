@@ -1,0 +1,368 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100%;
+    margin-top: 0px;
+}
+
+
+
+
+.background {
+    background-image: url("./home-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    white-space: nowrap;
+    position: absolute;
+    overflow-x : hidden;
+}
+
+.navigation {
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20px;
+    max-width: 100%;
+    float:right;
+    position: relative;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.navigation li.active a{
+    border: 1px solid whitesmoke;
+}
+
+.navigation li a:hover{
+    border: 1px solid whitesmoke
+}
+
+.myname {
+    width: 1000px;
+    min-width: 150px;
+    text-align: center;
+    margin: auto;
+    clear: both;
+    position: relative;
+}
+
+.myname h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.myname h3 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 300x;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+
+.contact-title h3 {
+    color: whitesmoke;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contact-form {
+    text-align: center;
+    justify-content: center;
+    clear: both;
+    position: relative;
+}
+
+form {
+    margin-top: 35px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 500px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: black;
+    font-size: 18px;
+    margin: 5px;
+}
+
+input {
+    height: 50px;
+}
+
+form .submit {
+    background-color: green;
+    border-color: transparent;
+    color: whitesmoke;
+    margin-top: 20px;
+    height: 50px;
+    font-family: 
+}
+
+::placeholder {
+    color: black;
+}
+
+form .submit:hover {
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+
+
+/* -----------------------about me---------------- */
+
+.doublecontainer {
+    background-color: white;
+    width: 100%;
+}
+.container {
+    width: 550px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    font-family: 'Oswald', Arial;
+    white-space: normal;
+    word-break: normal;
+}
+
+.container-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;    
+}
+
+.container h1 {
+    font-size: 35px;
+    letter-spacing: 4px;
+}
+
+.container h4 {
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+
+.container p {
+    padding-top: 30px;
+    width: 550px;
+    text-align: center;
+}
+
+
+.container li{
+    list-style: none;
+    display: inline-block;
+    margin: 6px;
+}
+
+.container li a{
+    
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+    border-radius: 50%;
+}
+
+/* --------------------skills----------- */
+
+header {
+    position: relative;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+
+.skills {
+    text-align: center;
+    width: 100%;
+    background-color: #8c8c8c;
+    padding-top: 15px;
+}
+
+.skills:after {
+    content: '';
+    display: block;
+    clear: both;
+    word-wrap: none;
+}
+
+
+.skills .skills-left, .skills .skills-center, .skills .skills-right {
+    width: 29%;
+    display: inline-block;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.skills p {
+    word-break: break-all;
+    white-space: normal;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.skills h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Oswald', monospace;
+}
+
+.skills .skills-left {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.skills .skills-center {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.skills .skills-right {
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+.skills i {
+    color: orange;
+    font-size: 60px;
+}
+
+.skills h4 {
+    font-family: 'Oswald', monospace;
+    font-size: 30px;
+}
+
+/**************** projects ********/
+
+.myprojects {
+    text-align: center;
+    width: 100%;
+}
+
+.myprojects:after {
+    display: block;
+    clear: both;
+    content: '';
+    padding-bottom: 50px;
+}
+
+.myprojects h2 {
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    font-size: 40px;
+    font-family: 'Oswald', monospace;
+}
+
+
+.myprojects .projectleft, .myprojects .projectcenter, .myprojects .projectright {
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+}
+
+.myprojects .projectleft {
+    margin-left: 2%;
+    margin-right: 1%;
+    background-image: url(./img_tech_robotfingers-500x300.jpg);
+    background-size: cover;
+}
+
+.myprojects .projectcenter {
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url(./The-Microservices-Approach-and-How-It-Beats-Monolithics.jpeg);
+    background-size: cover;
+}
+
+.myprojects .projectright {
+    margin-right: 2%;
+    margin-left: 2%;
+    background-image: url(./shutterstock_324643307-500x300.jpg);
+    background-size: cover;
+}
+
+.myprojects .overlay {
+    padding-top : 310px;
+}
+
+.myprojects .overlay:hover {
+    cursor: pointer;
+    transition: all 1s ease;
+    padding-top : 130px;
+}
+
+.overlay a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border: 1 px solid white;
+}
+
